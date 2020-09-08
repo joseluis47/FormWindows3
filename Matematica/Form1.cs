@@ -16,5 +16,13 @@ namespace Matematica
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            Matematica matematica = new Matematica(200, 100, "divisao");
+            label1.Text=matematica.Resultados().ToString();
+
+        }
     }
 }
